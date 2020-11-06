@@ -1,0 +1,4180 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'packet'이(가) '0'일 수 있습니다.  이 경우 'memcpy' 함수의 사양과 일치하지 않습니다. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                },
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 2,
+                  "endLine": 135,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'packet'은(는) NULL일 수 있습니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'packet'은(는) 'memcpy'(c:\\program files (x86)\\microsoft visual studio\\2019\\professional\\vc\\tools\\msvc\\14.27.29110\\include\\vcruntime_string.h:43에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'packet'은(는) NULL(이)면 안 됩니다. 이는 'memcpy'의 SAL 주석과 일치하지 않습니다."
+                        }
+                      },
+                      "kind": "사용법",
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'packet'이(가) '0'일 수 있습니다.  이 경우 'send' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 135을(를) 참조하십시오."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 2,
+                  "endLine": 139,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 9,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 10,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 11,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 12,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 13,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 14,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 15,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 16,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 17,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 18,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 19,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 20,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 21,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 22,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 23,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 24,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 25,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 26,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 27,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 28,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 29,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 30,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 31,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 32,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 33,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 34,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 35,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'packet'은(는) NULL일 수 있습니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 36,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'packet'은(는) 'memcpy'(c:\\program files (x86)\\microsoft visual studio\\2019\\professional\\vc\\tools\\msvc\\14.27.29110\\include\\vcruntime_string.h:43에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 37,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'packet'은(는) 'memcpy'(c:\\program files (x86)\\microsoft visual studio\\2019\\professional\\vc\\tools\\msvc\\14.27.29110\\include\\vcruntime_string.h:43에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 38,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'packet'은(는) 'send'(c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\um\\winsock2.h:2077에서 선언됨)에 대한 입력입니다."
+                        }
+                      },
+                      "kind": "사용법",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 39,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'packet'은(는) NULL(이)면 안 됩니다. 이는 'send'의 SAL 주석과 일치하지 않습니다."
+                        }
+                      },
+                      "kind": "사용법",
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'newdir'이(가) '0'일 수 있습니다.  이 경우 'memset' 함수의 사양과 일치하지 않습니다. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                },
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 2,
+                  "endLine": 244,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 240,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 241,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) NULL일 수 있습니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 244,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'memset'(c:\\program files (x86)\\microsoft visual studio\\2019\\professional\\vc\\tools\\msvc\\14.27.29110\\include\\vcruntime_string.h:63에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 244,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) NULL(이)면 안 됩니다. 이는 'memset'의 SAL 주석과 일치하지 않습니다."
+                        }
+                      },
+                      "kind": "사용법",
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'newdir'이(가) '0'일 수 있습니다.  이 경우 'strncpy' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 244을(를) 참조하십시오."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                },
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 2,
+                  "endLine": 245,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 240,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 241,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) NULL일 수 있습니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 244,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'memset'(c:\\program files (x86)\\microsoft visual studio\\2019\\professional\\vc\\tools\\msvc\\14.27.29110\\include\\vcruntime_string.h:63에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'strncpy'(c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:334에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) NULL(이)면 안 됩니다. 이는 'strncpy'의 SAL 주석과 일치하지 않습니다."
+                        }
+                      },
+                      "kind": "사용법",
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6053",
+          "message": {
+            "text": "’strncpy'에 대한 이전 호출에서 'newdir' 문자열이 0으로 종료되지 않을 수 있습니다."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 2,
+                  "endLine": 246,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 240,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 241,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 244,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'strncpy'의 출력으로, 해당 항목을 0으로 종료할 수 없습니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 246,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'strncat'(c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:262에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 246,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'strncat'의 SAL 주석에 의해 0으로 종료되기 위해 필요합니다."
+                        }
+                      },
+                      "kind": "사용법",
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'newdir'이(가) '0'일 수 있습니다.  이 경우 'strncat' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 244을(를) 참조하십시오."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                },
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 2,
+                  "endLine": 246,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "index": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 1,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 240,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 2,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 241,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 3,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 242,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "index": 4,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) NULL일 수 있습니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "essential"
+                    },
+                    {
+                      "index": 5,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 244,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'memset'(c:\\program files (x86)\\microsoft visual studio\\2019\\professional\\vc\\tools\\msvc\\14.27.29110\\include\\vcruntime_string.h:63에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 6,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'strncpy'(c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:334에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 7,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 246,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) 'strncat'(c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\string.h:262에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kind": "선언",
+                      "importance": "important"
+                    },
+                    {
+                      "index": 8,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/qnah2/source/repos/stl/stl/stl.cpp"
+                          },
+                          "region": {
+                            "startLine": 246,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'newdir'은(는) NULL(이)면 안 됩니다. 이는 'strncat'의 SAL 주석과 일치하지 않습니다."
+                        }
+                      },
+                      "kind": "사용법",
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.27.29112.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.27.29110\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00D48190 -allChunksReserved -il C:\\Users\\qnah2\\AppData\\Local\\Temp\\_CL_d1c85d89ast -typedil -f stl.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1927 -D_MSC_FULL_VER=192729112 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I C:\\Users\\qnah2\\source\\repos\\stl\\Library\\include -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -DSTL_EXPORTS -D_WINDOWS -D_USRDLL -D_WINDLL -D_MBCS -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Yupch.h -FpDebug\\stl.pch -FoDebug\\stl.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\qnah2\\source\\repos\\stl\\stl\\ -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.27.29110\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.27.29110\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.27.29110\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true,
+          "ruleConfigurationOverrides": [
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6001"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6011"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6029"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6031"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6053"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6054"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6059"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6063"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6064"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6066"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6067"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6101"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6200"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6201"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6214"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6215"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6216"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6217"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6220"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6226"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6230"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6235"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6236"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6237"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6242"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6248"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6250"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6255"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6258"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6259"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6260"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6262"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6263"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6268"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6269"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6270"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6271"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6272"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6273"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6274"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6276"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6277"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6278"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6279"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6280"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6281"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6282"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6283"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6284"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6285"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6286"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6287"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6288"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6289"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6290"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6291"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6292"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6293"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6294"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6295"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6296"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6297"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6299"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6302"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6303"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6305"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6306"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6308"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6310"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6312"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6314"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6317"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6318"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6319"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6324"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6328"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6331"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6332"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6333"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6335"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6381"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6383"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6384"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6385"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6386"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6387"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6388"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6500"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6501"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6503"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6504"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6505"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6506"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6508"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6509"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6510"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6511"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6513"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6514"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6515"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6516"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6517"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6518"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6522"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6525"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6527"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6530"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6540"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6551"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6552"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6701"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6702"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6703"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6704"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6705"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6706"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6993"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6995"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C6997"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26100"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26101"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26110"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26111"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26112"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26115"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26116"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26117"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26140"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26437"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26439"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26441"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26444"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26449"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26450"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26451"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26452"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26453"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26454"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26478"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26495"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26498"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26812"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26815"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26816"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26817"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26819"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C26820"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28020"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28021"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28022"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28023"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28024"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28039"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28112"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28113"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28125"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28137"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28138"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28159"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28160"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28163"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28164"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28182"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28183"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28193"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28196"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28202"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28203"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28205"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28206"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28207"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28209"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28210"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28211"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28212"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28213"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28214"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28215"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28216"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28217"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28218"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28219"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28220"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28221"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28222"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28223"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28224"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28225"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28226"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28227"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28228"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28229"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28230"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28231"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28232"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28233"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28234"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28235"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28236"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28237"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28238"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28239"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28240"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28241"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28243"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28244"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28245"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28246"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28250"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28251"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28252"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28253"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28254"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28262"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28263"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28267"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28272"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28273"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28275"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28279"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28280"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28282"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28285"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28286"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28287"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28288"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28289"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28290"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28291"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28300"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28301"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28302"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28303"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28304"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28305"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28306"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28307"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28308"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28309"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28350"
+              }
+            },
+            {
+              "configuration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "descriptor": {
+                "id": "C28351"
+              }
+            }
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/qnah2/source/repos/stl/stl/stl.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/qnah2/source/repos/stl/library/include/zipper.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/qnah2/source/repos/stl/stl/stl.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/qnah2/source/repos/stl/stl/pch.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/qnah2/source/repos/stl/stl/framework.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        }
+      ]
+    }
+  ]
+}
